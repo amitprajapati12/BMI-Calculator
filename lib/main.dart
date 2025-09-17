@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Container(
               width: 300,
               child: Column(
+
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("BMI",style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500  ),),
