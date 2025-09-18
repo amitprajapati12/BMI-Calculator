@@ -1,3 +1,4 @@
+import 'package:b_m_i/SplashPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Body Mass Index'),
+      home: SplashScreen(),
     );
   }
 }
